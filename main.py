@@ -10,9 +10,6 @@ exec(open('mechanics.py').read())
 exec(open('world.py').read())
 
 
-
-
-
 def move_rooms():
   global current_room 
   global player_choice
@@ -90,11 +87,7 @@ def helper_actions():
       break
     elif selc == "ITEMS":
       item_check()
-      break
-  
-    
-
-      
+      break 
 
 directions = ['NORTH', 'EAST', 'SOUTH', 'WEST', 'EXIT']
 actions = ['EXPLORE', 'EXAMINE', 'SPEAK', 'HEAL', 'REST', 'PRAY', 'BUY', "UPGRADE"]

@@ -1,64 +1,33 @@
 #1.CAMP SITE  *****************************
-line101 ="You enter a small clearing in the FOREST. There is a campfire already burning. Looks like a safe spot to REST up before continuing on your journey." #1
-line102 = "You enter a small clearing in the FOREST. There is a campfire that has burnt out. Looks like a safe spot to stop before continuing on your journey. " #2
+line101 ="You enter a small clearing in the FOREST. There is a campfire already burning. Looks like a safe spot to REST up before continuing on your journey." 
+line102 = "You enter a small clearing in the FOREST. There is a campfire that has burnt out. Looks like a safe spot to stop before continuing on your journey. " 
   #EXPLORE
-line103 = "You look around and see there is downward slopped path to your NORTH heading deeper into the FOREST, a small and worn dirt footpath to the WEST, and an old yet sturdy cobbled road to the SOUTH leading into TOWN." #4
-line104 = "The campsite seems to be regularly used by other travelers. A well constructed fire pit sits at the center surrounded by unusual dark stones that do not appear to be native to this region. Purhaps this explains why the fire was still burning when you first discovered it? There are a set of roughly carved benches from a couple of felled trees near the fire. They look comfortable enough to take a brief REST." #5 
-  #NORTH
-line105 = "You walk NORTH down the slopped and winding path, deeper into the FOREST." #7
-  #EAST
-line106 = "To your EAST the FOREST is much too thick to pass. It would be most unwise to attempt to traverse the woods in this direction." #9
-  #SOUTH
-line107 = "You begin walking SOUTH and enter the TOWN." #11
-  #WEST
-line108 = "You travel WEST down the worn footpath." #13
+line103 = "You look around and see there is downward slopped path to your NORTH heading deeper into the FOREST, a small and worn dirt footpath to the WEST, and an old yet sturdy cobbled road to the SOUTH leading into TOWN.\n\nThe campsite seems to be regularly used by other travelers. A well constructed fire pit sits at the center surrounded by unusual dark stones that do not appear to be native to this region. Purhaps this explains why the fire was still burning when you first discovered it? There are a set of roughly carved benches from a couple of felled trees near the fire. They look comfortable enough to take a brief REST."  
 
 #2.TOWN  *********************************
 line201 = "You stand at the center of TOWN and breath in the smells of the market and nearby fountain." #16
   #EXPLORE
-line202 = "From the TOWN center there is a SHOP for ADVENTURERS to the EAST, a small CASTLE to the SOUTH, and an INN advertising beds available to the WEST. " #18
-line203 = "At the very center of TOWN in front of you is a large marble fountain with carvings of various sea-beasts and serpents and a statue of a warrior mermaid holding a long trident and a small strapped shield." #19
-line204 = "At first glance the TOWN is a vibrant and beautiful community, but there is a dark air that hangs over the townsfolk. You sense the cause of this anxiety stems from the whicked TOWER looming across the FOREST..." #20
-  #NORTH
-line205 = "You walk NORTH up the cobblestone path to the CAMP." #22
-  #EAST
-line206 = "You walk EAST and enter the SHOP." #24
-  #SOUTH
-line207 = "You cross the bridge leading up to the CASTLE walls and pass through the portcaluses into the CASTLE." #26
-  #WEST
-line208 = "Walking WEST you enter the INN and continue past other groups of patrons." #28
+line202 = "From the TOWN center there is a SHOP for ADVENTURERS to the EAST, a small CASTLE to the SOUTH, and an INN advertising beds available to the WEST.\n\nAt the very center of TOWN in front of you is a large marble fountain with carvings of various sea-beasts and serpents and a statue of a warrior mermaid holding a long trident and a small strapped shield.\n\nAt first glance the TOWN is a vibrant and beautiful community, but there is a dark air that hangs over the townsfolk. You sense the cause of this anxiety stems from the whicked TOWER looming across the FOREST..." 
 
 #3.SHOP********************************
-line301 = 'The SHOP keep greets you and welcomes you to browse his wares.\n"Please let me know if you would like to BUY anything.' #31
-line302 = "You search the small SHOP for anything that may be of use to an ADVENTURER such as yourself. " #32
-line303 = "BUY a POTION for [25GP], an ANTIDOTE for [30GP], an ETHER for [40GP], a SMOKE BOMB for [35GP], or a LANTERN for [200GP]. Type your selection or EXIT to leave." #34
+line301 = 'The SHOP keep greets you and welcomes you to browse his wares.\n"Please let me know if you would like to BUY anything.' 
   #EXPLORE
 line304 = "Looking around the SHOP you see cluttered shelves filled with various strange bits of monsters, small vials filled with every color and viscocity of liquid, and carefully placed SMOKE BOMBS in a glass case. The SHOP keep smiles and urges you to BUY anything that catches your eye." #37
   #LEAVE
-line305 = "You exit the SHOP and head back to the TOWN center." #40
 #4.INN*************************************
 line401 = "The Inn keep motions you to the counter and offers you a bed.\nTaking a REST in a proper bed will surely rejuvinate you before your next battle.\nREST at the Inn for 40GP, or EXIT?" #42
 line401b = "The TAVERN owner rushes over to greet you. He eagerly offers you an available bed.\Taking a REST in a proper bed will surely rejuvinate you before your next battle.\nREST at the Tavern for 40GP, or EXIT?" 
-line402 = "Taking a REST in a proper bed will surely rejuvinate you before your next battle." #43
-line403 = "REST at the INN for 40GP, or EXIT?" #45
   #EXPLORE
 line404 = 'Behind the counter is a plump, jolly older man finding things to clean. There are a number of patrons sitting around tables on the main floor discussing business and travel over drinks. you spot an orange cat is sleeping on a cushion with the name "MILO" embroidered on it. Near the entrance is a set of stairs leading to the INN beds on the second floor. ' #48
 line404b = 'The TAVERN is a quaint building with a single room for guests. Travelers must not be too common around here. The TAVERN owners wife can be heard tending to the kitchen, prepping for dinner at the restaurant they run inside. A pair of ceramic pet bowls labeled "Yuffie" and "IGGY" sit behind the front counter.'
-  #LEAVE
-line405 = "You exit the INN and head back to the TOWN center." #50
-line405b = "You exit the TAVERN and return to the main VILLAGE." 
 #5.CASTLE*******************************
-line501 = "You step into the great hall of the royal CASTLE. The PRINCESS is seated on her throne awaiting those who seek audience with her ladyship. Type SPEAK to interact." #53
+line501 = "You step into the great hall of the royal CASTLE. The PRINCESS is seated on her throne awaiting those who seek audience with her ladyship. Type SPEAK to interact." 
   #EXPLORE
-line502 = "The well weathered outer walls betray the prestine and elegant interior. Red and gold tapestries line the walls, some depicting heroic deeds from ages past. Stained glass windows near the ceiling brings in a flood of mutlicolored light that fills the room. A massive tapestry depicting the royal coat of arms hangs above the PRINCESS and her throne. Guards wielding halberds flank either side of the PRINCESS and servants can be seen scurrying all around carrying out their daily tasks. Everyone has an anxious look on their faces." #55
-  #NORTH
-line503 = "You exit the CASTLE and walk back across the bridge and into the main TOWN." #57
-  #EAST/SOUTH/WEST
-line504 = "You must exit the CASTLE from the NORTH." #59
+line502 = "The well weathered outer walls betray the prestine and elegant interior. Red and gold tapestries line the walls, some depicting heroic deeds from ages past. Stained glass windows near the ceiling brings in a flood of mutlicolored light that fills the room. A massive tapestry depicting the royal coat of arms hangs above the PRINCESS and her throne. Guards wielding halberds flank either side of the PRINCESS and servants can be seen scurrying all around carrying out their daily tasks. Everyone has an anxious look on their faces." 
   #SPEAK
 line505 = "You approach the royal advisor and request an audience with the PRINCESS. Audience is granted.\n" #61
 line506 = '"Nobel ADVENTURER, hear my plea; our kingdom has been plagued by the evil warlock SMELDAR since it was founded many generations ago. His TOWER is a harbinger of dark times and appears whenever SMELDAR begins assembling his wicked army. Please venture NORTH through the FOREST to the wretched TOWER and put a stop to SMELDAR before his power returns and he regains his full strength"' #62
-line507 = "Nobel ADVENTURER I hope your quest goes well. We all pray for your safety and success in your journey. Please defeat the evil warlock SMELDAR and save our kingdom from darkness." #63
+line507 = '"Nobel ADVENTURER I hope your quest goes well. We all pray for your safety and success in your journey. Please defeat the evil warlock SMELDAR and save our kingdom from darkness."' #63
 line508 = '"I see you carry our kingdoms symbol of the HERO. A shame such an honorable WARRIOR has fallen. We will make sure to honor his memory. Please keep the medal as a token of your service and allow me to unlock its magical properties."' #64
 #6.CLIFF*************************
 line601 = "The woods begin to thin as you approach another clearing. You stand near a CLIFF over-looking the vast FOREST and surrounding lands." #66
@@ -71,13 +40,7 @@ line605 = "Near the base of the olive tree's trunk is a round, shining object em
 line605b = "You take your AXE and carefully start choping the burl off. After some time you manage to free the item and discover it is an old PENDANT. You place it in your bag." #72
 line605c = "You decide not to disturb the object." #72
 line605d = 'The PENDANT has been freed from the olive tree.'
-  #NORTH
-line606 = "You turn to the NORTH face of the CLIFF and look over the edge. You think to yourself that jumping off might be a stupid idea. " # 74
-  #EAST
-line607 = "You begin walking EAST down the trail." #76
-  #SOUTH
-line608 = "You see remnants of a path to the SOUTH, however the woods have taken it over making passage impossible." #78
-  #WEST
+ 
 line609 = "You look to the WEST down the edge of the CLIFF. Unless you're a bird, good luck getting down from here." #80
 line610 = "You look to the WEST down the edge of the CLIFF. Unless you're a bird, good luck getting down from here." #81
 line611 = "Miraculously, you survive the fall. You don't know if those branches you fell through broke your fall or your ribs. Maybe don't do that again?" #82
@@ -85,70 +48,40 @@ line611 = "Miraculously, you survive the fall. You don't know if those branches 
 line701 = "You come to a cross roads deep in the FOREST. It's so dark it almost appears to be night. You stand there and ponder your next steps." #84
   #EXPLORE
 line702 = 'The air is unusually stale for a FOREST and you sense something sinister lurking deeper in the woods. There is a crooked sign off the road that reads "← LAKE. ↓ TOWN. SHRINE →". You also see a shadowy path to the NORTH where the FOREST becomes more dense. You can hear a great deal of strange sounds emanating from the woods and have the feeling you are being watched from all around.' #86
-  #NORTH
-line703 = "Cautiously, you begin walking down the shadowy path NORTH." #92
-  #EAST
-line704 = "You turn EAST and step carefully as you make your way down the rocky path." #94
-  #SOUTH
-line705 = "You turn SOUTH, back up the slopped path to the FOREST entrance." #96
-  #WEST
-line706 = "You turn WEST and listen to the sound of water grow as you make your way down the path." #98
 #8.HILL*****************************
-line801 = "You come to a large stone HILL jutting diagonally into the sky. You stand on the path several yards outside a CAVE tucked into the side of the HILL." #101
+line801 = "You come to a large stone HILL jutting diagonally into the sky. You stand on the path several yards outside a CAVE tucked into the side of the HILL." 
   #EXPLORE
-line802 = 'Small animal bones litter ther entrance to the CAVE EAST of you. Large claw marks can be seen across several nearby trees. Past the HILL and in the woods to the NORTH you can just make out a blue glow through the trees. The path continues in the direction of the glow. Looking SOUTH you can see a partially felled tree. Type "EXAMINE" to inspect.' #103
-line803 = 'Looking SOUTH a handful of stumps can be found next to a partially felled tree. Type "EXAMINE" to inspect.' #104
+line802 = 'Small animal bones litter ther entrance to the CAVE EAST of you. Large claw marks can be seen across several nearby trees. Past the HILL and in the woods to the NORTH you can just make out a blue glow through the trees. The path continues in the direction of the glow. Looking SOUTH you can see a partially felled tree. Type "EXAMINE" to inspect.' 
 line804 = 'Small animal bones litter ther entrance to the CAVE EAST of you. Large claw marks can be seen across several nearby trees. Past the HILL and in the woods to the NORTH you can just make out a blue glow through the trees. The path continues in the direction of the glow. Looking SOUTH a path has been cleared. The woods sound like they are teeming with life in that direction and you catch a sweet smell in the air.' #105
   #EXAMINE
 line805 = "The tree appears to have been struck by lightning and broke; it's tipped over and is blocking the path SOUTH. If only you had a way to finish knocking the tree over..." #108
 line805b = "The tree appears to have been struck by lightning and broke; it's tipped over and is blocking the path SOUTH. You'll need to finish knocking it down to get through. Your AXE should be perfect for the job. CUT the tree down, or LEAVE it be?"
-line806 = "You take your AXE and begin chopping into the tree. After a few good whacks the tree finishes toppling over. A familiy of squirrels curses you for destroying their home. Don't worry though; squirrel magic is lame. You can easily step over the trunk and continue now." #109
+line806 = "You take your AXE and begin chopping into the tree. After a few good whacks the tree finishes toppling over. A familiy of squirrels curses you for destroying their home. Don't worry though; squirrel magic is lame. You can easily step over the trunk and continue now." 
 line806b = "You decide to leave the tree alone."
-  #NORTH
-line807 = "You follow the path NORTH towards the blue light." #112
-  #EAST
-line808 = "You slowly creep into the CAVE to the EAST." #114
-  #SOUTH
-line809 = "You head SOUTH following the sweet scent." #116
-  #WEST
-line810 = "You walk back WEST into the deeper FOREST."  #118
-line811 = "The path SOUTH is inaccessible at this time; the path is blocked by a partially felled tree. EXAMINE for a closer look?" #120
+line811 = "The tree has been cleared from the path. You can head SOUTH now." 
 #9.CAVE**************************************
 line901 = "As you enter the cave a foul stench fills your nostrils. You soon discover the source; a sleeping BEAR lies in front of you." #122
 line902 = "As you enter the cave a foul stench fills your nostrils. The BEAR is gone but its smell lingers." #123
   #Examine
 line903 = "You notice the BEAR is gaurding a large bearded AXE. Theres no way you're getting it without dealing with that BEAR. Do you POKE or BACK out?" #126
 line904 = "You notice the BEAR is gaurding a large bearded AXE. Theres no way you're getting it without dealing with that BEAR. You remember the SALMON you found at the WATERFALL. Maybe this will help? Do you POKE, FEED, or BACK out?" #127
-line905 = "Now that the BEAR is gone the CAVE is safe. It still smells atrocious though... So why are you still here?" #128
   #EXPLORE
 line906 = "The CAVE reeks of somthing foul, like rotting fish. It's dark, but it appears that the CAVE continues on EAST. Just a few paces ahead, a sleeping BEAR lies; it seems to be guarding something. EXAMINE for a closer look?" 
 line906b = "The CAVE reeks of somthing foul, like rotting fish. Now that the BEAR is gone the stench isn't quite so bad... It's dark, but it appears that the CAVE continues on EAST."
 line907 = "You decide messing with a sleeping BEAR isn't a wise idea and back away."
-  #NORTH
-line908 = "Facing NORTH you see the stone wall of the CAVE. Thats it. You're not getting through." #134
   #EAST
-line909 = "It is much too dark to go any deeper into the CAVE. You'll need a light source to make it through." #135
-  #SOUTH
-line910 = "You turn to face SOUTH and almost step in BEAR droppings. No wonder this CAVE smells like rotting SALMON." #136
+line909 = "It is much too dark to go any deeper into the CAVE. You'll need a light source to make it through."
   #BEAR Combat/Defeat
 line911 = "You creep up on the BEAR and get as close as you can before using a nearby stick to poke the BEAR right in the eye. That was a wise idea. The BEAR's roar echos in the CAVE as they shuffle around still only half coherent. The BEAR quickly wakes up and realizes you are the cause of their discomfort. Good luck with that." #138
 line912 = "The BEAR is vanquished and the AXE is now free for the taking. You grab the AXE and celebrate your victory." #139
 line912b = "What was a BEAR doing with an AXE in the first place?.." 
-line913 = "You pull out the SALMON from your pack and toss it in front of the BEAR. The BEAR's nose twitches and slowly turns towards the SALMON. The BEAR wakes up and sleepily looks over at you before scooping up up the SALMON and exiting the CAVE. You grab the AXE as soon as the BEAR leaves." #140
+line913 = "You pull out the SALMON from your pack and toss it in front of the BEAR. The BEAR's nose twitches and slowly turns towards the SALMON. The BEAR wakes up and sleepily looks over at you before scooping up up the SALMON and exiting the CAVE. You grab the AXE as soon as the BEAR leaves." 
 # Dungeon CAVE 1
 line914 = "The BEAR is still sleeping. You should probably deal with it before moving deeper..."
 line915 = "You turn on your lantern. Now you should have no trouble seeing through the CAVE" 
 line916 = "Taking care on the uneven CAVE floor, you come to a T-junction."
   #EXPLORE
 line917 = "From the intersection, the CAVE seems to continue either NORTH or SOUTH. The path returning to the entrance in the WEST is particularly narrow. Too narrow for a BEAR to get through. You look around and see large bones littering the ground. Some are animal, but the majority are distictly human."
-  #NORTH
-line918 = "You continue through the CAVE and move NORTH."
-  #EAST
-line919 = "You continue through the cave and move EAST. You smack your face into the cave wall. Good thing no one else was around; that was embarrassing"
-  #SOUTH
-line920 = "You continue through the CAVE and move SOUTH."
-  #WEST
-line921 = "You head back WEST to the CAVE entrance"
 #Dungeon CAVE 2
 line922 = "The CAVE opens up slightly and you enter a musty room filled with boxes, barrels, and sacks."
   #EXPLORE
@@ -160,20 +93,12 @@ line926 = "You open the CHEST and immediately are assualted by a Hobgoblin from 
 line927 = "You finish off the Hobgoblin and catch your breath. You notice they dropped a KEY when they leaped from the CHEST. You pick it up and take it as a consolation. Maybe it will come in handy later."
 line928 = "You decide that it's better to leave the CHEST alone for now. These things usually end up being traps for novice ADVENTURERS anyway."
 line928b = "You look inside the chest. Thankfully no more Hobgoblins pop out, but it's completely empty."
-  #NORTH/EAST/WEST
-line929 = "The room has no other paths forward; it's a dead end."
-  #SOUTH
-line930 = "You turn around and head back SOUTH"
+
 #DUNGEOUN CAVE 3
 line931 = "You enter a narrow passage flanked by craggily walls on the EAST and WEST."
   #EXPLORE
 line932a = "The passage here is a narrow tunnel decending SOUTH, deeper underground. The walls on either side are a rough limestone worn from many years of errosion; they feel slightly damp."
-  #NORTH
-line932 = "You begin walking NORTH back up the passage, taking care on the slopped path."
-  #EAST/WEST
-line933 = "You've heard stories of secret passages in CAVES and DUNGEONS that reveal themselves after being hit. Maybe this is one of them? You punch the wall.\nOuch...\nThis certainly isn't one of them."
-  #SOUTH
-line934 = "You decend deeper into the CAVE, bracing yourself on the wall to prevent from slipping."
+
 #DUNGEON CAVE 4
 line935 = "You step out of the tunnel and enter an open room within the cave. As you step into the room you can hear a snarling and wild laughter coming from a large pit ahead. Before you can react a Goblin Gang begins crawling from the pit and surrounds you!"
 line936 = "You defeat the last of the Goblin Gang and revel in your victory. You convince yourself it's not your fault theres more Goblin widows and orphans in the world now."

@@ -134,7 +134,7 @@ def potion_healing():
   print(
       f'{p1.name} drinks a POTION and heals {heal} HP. {p1.name} has {p1.HP}/{p1.MaxHP} HP. \n'
   )
-def camp_healing(): #Camp resting mechanics
+def camp_healing():
   while True:
     if rooms['Camp']['fire'] > 0:
       heal = random.randrange(10, 20)
@@ -199,7 +199,7 @@ def hill_examine():
         print(line805)
         break
       elif 'AXE' in inventory:
-        print(line1405)
+        print(line805b)
         selc = (input().upper()).strip()
         print("")
         if selc == 'CUT':
@@ -213,7 +213,7 @@ def hill_examine():
         else:
           print('That command is invalid.\n')
     else:
-      print(line1408)
+      print(line811)
       break
 def waterfall_examine():
   global current_room
@@ -587,12 +587,12 @@ def shrine_speak():
   global current_room
   global inventory
   while True:
-    if rooms['Boat']['speach'] == 0:
+    if rooms['Shrine']['speach'] == 0:
       print(line1105)
       print(line1106)
-      rooms['Boat']['speach'] = 1
+      rooms['Shrine']['speach'] = 1
       break
-    elif rooms['Boat']['speach'] == 1 and 'PENDANT' in inventory:
+    elif rooms['Shrine']['speach'] == 1 and 'PENDANT' in inventory:
       print(line1108) 
       print(line1109) 
       print(f"{p1.name} is given the FRIAR's MESSER. This single edge sword is finely crafted. Much better than the rusty old blade you found in the trash before you started adventuring... {p1.name} gained 5 ATK")
@@ -601,7 +601,7 @@ def shrine_speak():
       p1.ATK += 5
       stat_check()
       break
-    elif rooms['Boat']['speach'] == 1:
+    elif rooms['Shrine']['speach'] == 1:
       print(line1107)
       break
 
